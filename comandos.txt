@@ -1,0 +1,31 @@
+yarn global remove react-native-cli
+
+npm uninstall -g react-native-cli
+
+
+npx react-native init appgobarber --template react-native-template-typescript
+
+
+yarn android
+
+caso nao abrir a janela do bundel
+yarn start
+
+primeiro passos.
+crio uma pasta SRC
+crio um arquivo app.tsx
+
+no arquivo index na raiz trocar o endereço do app
+
+deletar o app.tsx da raiz
+
+deletar o eslint
+prettier
+
+
+yarn add styled-components
+ yarn add @types/styled-components -D
+
+yarn add @react-navigation/native
+yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+yarn add @react-navigation/stack
