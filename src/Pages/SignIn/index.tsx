@@ -44,7 +44,13 @@ const SignIn: React.FC = () => {
             <Input name="email" icon="mail" placeholder="E-mail" />
             <Input name="password" icon="lock" placeholder="Senha" />
 
-            <Button>Entrar</Button>
+            <Button
+              onPress={() => {
+                console.log('deu');
+              }}
+            >
+              Entrar
+            </Button>
             <ForgotPassword
               onPress={() => {
                 console.log('deu');
